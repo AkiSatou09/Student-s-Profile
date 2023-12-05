@@ -1,0 +1,74 @@
+body {
+  background-image: url(https://wallpaperaccess.com/full/1614776.jpg);
+  background-size: cover;
+ }
+
+ .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 23px;
+ }
+
+ .top-row,
+.bottom-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.container {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  border: solid white 1px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  text-decoration: none;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.learn-more:hover {
+  background-color: #007bb5;
+}
+
+.main-00 {
+  background-color: blue;
+  border-radius: 15px;
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+  border: solid white 2px;
+}
+
+.profile-pic {
+  border: solid black 1px;
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-bottom: 10px;
+}
